@@ -34,7 +34,7 @@ def test_uniform_fit():
     xmax = x.max()
 
     # Experimenting with the initial guess theta0...
-    rng = x.ptp()
+    rng = np.ptp(x)
     pad = 0.025
     a0 = xmin - pad*rng
     b0 = xmax + pad*rng
