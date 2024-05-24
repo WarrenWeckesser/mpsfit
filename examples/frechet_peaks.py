@@ -57,6 +57,6 @@ params, T = mpsfit(peaks, theta0=theta0,
 print('-'*72)
 print(f"{params[0]:17.15f}  {params[1]:17.10f}  "
       f"(sample generated with c={c} threshold={threshold})")
-print(f"{T = }")
+print(f"{T = :f}")
 p = chdtrc(n, T)
-print(f"{p = }")
+print(f"{p = :f}")
