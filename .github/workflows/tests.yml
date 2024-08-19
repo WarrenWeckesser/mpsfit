@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         python-version: ['3.11', '3.12']
-        scipy-version: ['1.11.4', '1.12.0', '1.13.0']
+        scipy-version: ['1.11.4', '1.12.0', '1.13.1', '1.14.0']
 
     steps:
     - uses: actions/checkout@v4
